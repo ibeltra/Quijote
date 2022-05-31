@@ -15,3 +15,5 @@ def porcentaje_archivo(infilename, outfilename, porcentaje):
     lineas = lineas.collect()
     with open(outfilename, "w") as outfile: 
         outfile.write(f"{lineas}\n")
+        
+porcentaje_archivo("quijote.txt", "quijote_s05.txt", 0.05)

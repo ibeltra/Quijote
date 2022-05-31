@@ -16,3 +16,4 @@ def contar_palabras(infilename, outfilename):
         f.write(f"{wordsCounts.collect()}\n")
 
 contar_palabras("quijote.txt", "out_hdfs.txt")
+contar_palabras("quijote_s05.txt", "out_quijote_s05.txt")
